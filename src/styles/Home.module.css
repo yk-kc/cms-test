@@ -1,0 +1,40 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.listItem {
+  margin-bottom: 100px;
+}
+
+.flexItem {
+  display: flex;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px gray;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.name {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
